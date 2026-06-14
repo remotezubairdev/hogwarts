@@ -35,3 +35,8 @@ nav > ul {
     width: max-content;
     gap: 20px;
 }
+
+nav ul li a:hover {
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+}
