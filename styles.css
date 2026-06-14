@@ -1,3 +1,7 @@
+* {
+    font-family: 'Times New Roman';
+    box-sizing: border-box;
+}
 body {
     padding: 0 60px;
 }
@@ -48,7 +52,6 @@ nav > ul {
 
 nav ul li a:hover {
     border-bottom: 1px solid black;
-    box-sizing: border-box;
 }
 
 main {
@@ -56,6 +59,7 @@ main {
 }
 
 .cta {
+    border: none;
     display: inline-block;
     margin-top: 5px;
     background-color: maroon;
